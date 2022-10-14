@@ -1,0 +1,2781 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Personal TODO }Personal TODO}
+{\comment \'D1\'EE\'E7\'E4\'E0\'ED\'EE \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9 doxygen 1.9.5.}
+{\creatim \yr2022\mo10\dy14\hr18\min37\sec49}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Personal TODO}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+\'C2\'E5\'F0\'F1\'E8\'FF \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt \'CF\'F2 14 \'CE\'EA\'F2 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Example-CRUD <a href="https://dev.azure.com/lganzzzo/lganzzzo/_build?definitionId=9?branchName=master" ><img src="https://dev.azure.com/lganzzzo/lganzzzo/_apis/build/status/oatpp.example-crud?branchName=master" alt="Build Status"/></a>{\tc \v Example-CRUD <a href="https://dev.azure.com/lganzzzo/lganzzzo/_build?definitionId=9?branchName=master" ><img src="https://dev.azure.com/lganzzzo/lganzzzo/_apis/build/status/oatpp.example-crud?branchName=master" alt="Build Status"/></a>}\par \pard\plain 
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A complete example of a "CRUD" service ({\b UserService}) built with Oat++.\par
+In this example:\par
+{
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+How to create CRUD endpoint.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+How to use {\f2 oatpp ORM} - SQLite example.\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+How to document API with Swagger-UI and OpenApi 3.0.0.\par}
+\par
+More about Oat++:\par
+{
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 Oat++ Website}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 Oat++ Github Repository}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 Get Started}\par}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Overview
+\par}
+{\tc\tcl2 \v Overview}
+This project is using the following oatpp modules:\par
+{
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp-swagger}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp-sqlite}\par}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Project layout
+\par}
+{\tc\tcl3 \v Project layout}
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid |- CMakeLists.txt                        // projects CMakeLists.txt\par
+|- sql/                                  // SQL migration scripts for SQLite database\par
+|- src/\par
+|   |\par
+|   |- controller/                       // Folder containing REST Controllers (UserController)\par
+|   |- db/                               // Folder containing the database client\par
+|   |- dto/                              // DTOs are declared here\par
+|   |- service/                          // Service business logic classes (UserService)\par
+|   |- AppComponent.hpp                  // Service config\par
+|   |- DatabaseComponent.hpp             // Database config\par
+|   |- SwaggerComponent.hpp              // Swagger-UI config\par
+|   |- App.cpp                           // main() is here\par
+|\par
+|- test/                                 // test folder\par
+|- utility/install-oatpp-modules.sh      // utility script to install required oatpp-modules.\par
+}
+\par
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\par}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Build and Run
+\par}
+{\tc\tcl3 \v Build and Run}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Using CMake
+\par}
+{\tc\tcl4 \v Using CMake}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Pre Requirements
+\par}
+{\tc\tcl4 \v Pre Requirements}
+{
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp} \par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp-swagger} \par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\f2 oatpp-sqlite}  with {\f2 -DOATPP_SQLITE_AMALGAMATION=ON}  cmake flag.\par}
+\par
+{\b Note:}  You may run {\f2 utility/install-oatpp-modules.sh}  script to install required oatpp modules.\par}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Build Project
+\par}
+{\tc\tcl4 \v Build Project}
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid $ mkdir build && cd build\par
+$ cmake ..\par
+$ make \par
+$ ./crud-exe        # - run application.\par
+}
+\par}
+\par}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+In Docker
+\par}
+{\tc\tcl4 \v In Docker}
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid $ docker build -t example-crud .\par
+$ docker run -p 8000:8000 -t example-crud\par
+}
+\par
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\par}
+\par}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{{\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Endpoints
+\par}
+{\tc\tcl3 \v Endpoints}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+HTML
+\par}
+{\tc\tcl4 \v HTML}
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{HTTP Method   \cell }{URL   \cell }{Description    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 GET}    \cell }{{\f2 http://localhost:8000/}   \cell }{Root page    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 GET}    \cell }{{\f2 http://localhost:8000/swagger/ui}   \cell }{Swagger UI page   \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\pard\plain
+\par
+\par}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{{\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+User Service
+\par}
+{\tc\tcl4 \v User Service}
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clcbpat16\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{HTTP Method   \cell }{URL   \cell }{Description    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 POST}    \cell }{{\f2 http://localhost:8000/users}   \cell }{Create new User    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 PUT}    \cell }{{\f2 http://localhost:8000/users/\{userId\}}   \cell }{Update User by ID    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 GET}    \cell }{{\f2 http://localhost:8000/users/\{userId\}}   \cell }{Get User by ID    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 DELETE}    \cell }{{\f2 http://localhost:8000/users/\{userId\}}   \cell }{Delete User by ID    \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx2916
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5832
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\f2 GET}    \cell }{{\f2 http://localhost:8000/users/offset/\{offset\}/limit/\{limit\}}   \cell }{Get All Users with Paging   \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\pard\plain
+\par
+\par}
+\par}
+\par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+oatpp::web::client::ApiClient
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+TestClient\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+oatpp::web::server::api::ApiController
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+StaticController\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TodoController\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+UserController\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+AppComponent\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+DatabaseComponent\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+oatpp::orm::DbClient
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+UserDb\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+oatpp::DTO
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+PageDto< oatpp::Object< TodoDto > >\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+TodoPageDto\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+PageDto< oatpp::Object< UserDto > >\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+UsersPageDto\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+PageDto< T >\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+StatusDto\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TodoDto\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+oatpp::web::server::handler::ErrorHandler
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+ErrorHandler\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+SwaggerComponent\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TestComponent\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TestDatabaseComponent\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TodoService\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+oatpp::test::UnitTest
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+UserControllerTest\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+UserService\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CA\'EB\'E0\'F1\'F1\'FB \'F1 \'E8\'F5 \'EA\'F0\'E0\'F2\'EA\'E8\'EC \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\'EC.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b AppComponent} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b DatabaseComponent} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ErrorHandler} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b PageDto< T >} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'E1\'F9\'E0\'FF \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 \'EE\'F2\'E2\'E5\'F2\'E0 \'E4\'EB\'FF \'F1\'EF\'E8\'F1\'EA\'E0 \'EE\'E1\'FA\'E5\'EA\'F2\'EE\'E2 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b StaticController} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b StatusDto} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b SwaggerComponent} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TestClient} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TestComponent} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TestDatabaseComponent} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TodoController} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Todo REST controller })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TodoDto} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TodoPageDto} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TodoService} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UserController} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UserControllerTest} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UserDb} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2 \'EA\'EB\'E0\'F1\'F1\'E5 \'F1\'EE\'E4\'E5\'F0\'E6\'E0\'F2\'F1\'FF \'EC\'E5\'F2\'EE\'E4\'FB, \'E2\'FB\'EF\'EE\'EB\'ED\'FF\'FE\'F9\'E8\'E5 SQL \'E7\'E0\'EF\'F0\'EE\'F1\'FB. \'CF\'EE \'F1\'E2\'EE\'E5\'E9 \'F1\'F3\'F2\'E8 \'FF\'E2\'EB\'FF\'E5\'F2\'F1\'FF \'EC\'EE\'E4\'E5\'EB\'FC\'FE })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UserService} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UsersPageDto} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2\par \pard\plain 
+{\tc \v \'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'E4\'EE\'EA\'F3\'EC\'E5\'ED\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b src/{\b AppComponent.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/{\b DatabaseComponent.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/{\b ErrorHandler.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/{\b SwaggerComponent.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/controller/{\b StaticController.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/controller/{\b TodoController.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/controller/{\b UserController.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/db/{\b UserDb.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/dto/{\b PageDto.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/dto/{\b StatusDto.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/dto/{\b TodoDto.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/dto/{\b UserDto.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/service/{\b TodoService.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/service/{\b UserService.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b test/{\b UserControllerTest.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b test/app/{\b TestClient.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b test/app/{\b TestComponent.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b test/app/{\b TestDatabaseComponent.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB{\tc \v \'CA\'EB\'E0\'F1\'F1\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 AppComponent\par \pard\plain 
+{\tc\tcl2 \v AppComponent}
+{\xe \v AppComponent}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+{
+{\f2 #include <AppComponent.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::data::mapping::ObjectMapper >, apiObjectMapper)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::ServerConnectionProvider >, serverConnectionProvider)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::web::server::HttpRouter >, httpRouter)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::ConnectionHandler >, serverConnectionHandler)([]\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SwaggerComponent} {\b swaggerComponent}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b DatabaseComponent} {\b databaseComponent}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class which creates and holds Application components and registers components in oatpp::base::Environment Order of components initialization is from top to bottom \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v OATPP_CREATE_COMPONENT\:AppComponent}
+{\xe \v AppComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AppComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::data::mapping::ObjectMapper > , apiObjectMapper ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create ObjectMapper component to serialize/deserialize DTOs in Contoller's API \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:AppComponent}
+{\xe \v AppComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AppComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::ConnectionHandler > , serverConnectionHandler ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create ConnectionHandler component which uses Router component to route requests \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:AppComponent}
+{\xe \v AppComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AppComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::ServerConnectionProvider > , serverConnectionProvider ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create ConnectionProvider component which listens on the port \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:AppComponent}
+{\xe \v AppComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AppComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::web::server::HttpRouter > , httpRouter ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create Router component \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v databaseComponent\:AppComponent}
+{\xe \v AppComponent\:databaseComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b DatabaseComponent} AppComponent::databaseComponent}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Database component \par
+}}
+{\xe \v swaggerComponent\:AppComponent}
+{\xe \v AppComponent\:swaggerComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SwaggerComponent} AppComponent::swaggerComponent}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Swagger component \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/AppComponent.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 DatabaseComponent\par \pard\plain 
+{\tc\tcl2 \v DatabaseComponent}
+{\xe \v DatabaseComponent}
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::provider::Provider< oatpp::sqlite::Connection > >, dbConnectionProvider)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< {\b UserDb} >, userDb)([]\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v OATPP_CREATE_COMPONENT\:DatabaseComponent}
+{\xe \v DatabaseComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+DatabaseComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::provider::Provider< oatpp::sqlite::Connection > > , dbConnectionProvider ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create database connection provider component \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:DatabaseComponent}
+{\xe \v DatabaseComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+DatabaseComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< {\b UserDb} > , userDb ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create database client \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/DatabaseComponent.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 ErrorHandler\par \pard\plain 
+{\tc\tcl2 \v ErrorHandler}
+{\xe \v ErrorHandler}
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:ErrorHandler:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_error_handler.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ErrorHandler} (const std::shared_ptr< oatpp::data::mapping::ObjectMapper > &objectMapper){\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+std::shared_ptr< OutgoingResponse > {\b handleError} (const Status &status, const oatpp::String &message, const Headers &headers) override{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/ErrorHandler.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/ErrorHandler.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D8\'E0\'E1\'EB\'EE\'ED \'EA\'EB\'E0\'F1\'F1\'E0 PageDto< T >\par \pard\plain 
+{\tc\tcl2 \v PageDto< T >}
+{\xe \v PageDto< T >}
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'E1\'F9\'E0\'FF \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 \'EE\'F2\'E2\'E5\'F2\'E0 \'E4\'EB\'FF \'F1\'EF\'E8\'F1\'EA\'E0 \'EE\'E1\'FA\'E5\'EA\'F2\'EE\'E2 }}\par
+{
+{\f2 #include <PageDto.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:PageDto< T >:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_page_dto.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+template<class T>\par
+class PageDto< T >\par
+}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CE\'E1\'F9\'E0\'FF \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 \'EE\'F2\'E2\'E5\'F2\'E0 \'E4\'EB\'FF \'F1\'EF\'E8\'F1\'EA\'E0 \'EE\'E1\'FA\'E5\'EA\'F2\'EE\'E2 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/dto/PageDto.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 StaticController\par \pard\plain 
+{\tc\tcl2 \v StaticController}
+{\xe \v StaticController}
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:StaticController:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_static_controller.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b StaticController} (const std::shared_ptr< ObjectMapper > &objectMapper){\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("GET", "/", root){\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static std::shared_ptr< {\b StaticController} > {\b createShared} (){\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/controller/StaticController.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 StatusDto\par \pard\plain 
+{\tc\tcl2 \v StatusDto}
+{\xe \v StatusDto}
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:StatusDto:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_status_dto.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/dto/StatusDto.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 SwaggerComponent\par \pard\plain 
+{\tc\tcl2 \v SwaggerComponent}
+{\xe \v SwaggerComponent}
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+\par
+{
+{\f2 #include <SwaggerComponent.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::swagger::DocumentInfo >, swaggerDocumentInfo)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::swagger::Resources >, swaggerResources)([]\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'E0\'E9\'EB \'F1 \'ED\'E0\'F1\'F2\'F0\'EE\'E9\'EA\'EE\'E9 \'EA\'EE\'EC\'EF\'EE\'ED\'E5\'ED\'F2\'E0 \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8 \'E4\'EE\'EA\'F3\'EC\'E5\'ED\'F2\'E0\'F6\'E8\'E8 Swagger ui is served at {\f2 http://host:port/swagger/ui} \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v OATPP_CREATE_COMPONENT\:SwaggerComponent}
+{\xe \v SwaggerComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SwaggerComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::swagger::DocumentInfo > , swaggerDocumentInfo ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+General API docs info \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:SwaggerComponent}
+{\xe \v SwaggerComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SwaggerComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::swagger::Resources > , swaggerResources ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Swagger-Ui Resources (<oatpp-examples>/lib/oatpp-swagger/res) \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/SwaggerComponent.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TestClient\par \pard\plain 
+{\tc\tcl2 \v TestClient}
+{\xe \v TestClient}
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\par
+{
+{\f2 #include <TestClient.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:TestClient:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_test_client.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Test API client. Use this client to call application APIs. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+test/app/TestClient.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TestComponent\par \pard\plain 
+{\tc\tcl2 \v TestComponent}
+{\xe \v TestComponent}
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+{
+{\f2 #include <TestComponent.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::virtual_::Interface >, virtualInterface)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::ServerConnectionProvider >, serverConnectionProvider)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::ClientConnectionProvider >, clientConnectionProvider)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::web::server::HttpRouter >, httpRouter)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::network::ConnectionHandler >, serverConnectionHandler)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::data::mapping::ObjectMapper >, apiObjectMapper)([]\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b TestDatabaseComponent} {\b databaseComponent}{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Test Components config \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::data::mapping::ObjectMapper > , apiObjectMapper ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create ObjectMapper component to serialize/deserialize DTOs in Contoller's API \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::ClientConnectionProvider > , clientConnectionProvider ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create client ConnectionProvider of oatpp virtual connections for test \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::ConnectionHandler > , serverConnectionHandler ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create ConnectionHandler component which uses Router component to route requests \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::ServerConnectionProvider > , serverConnectionProvider ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create server ConnectionProvider of oatpp virtual connections for test \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::network::virtual_::Interface > , virtualInterface ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create oatpp virtual network interface for test networking \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestComponent}
+{\xe \v TestComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::web::server::HttpRouter > , httpRouter ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create Router component \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+test/app/TestComponent.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TestDatabaseComponent\par \pard\plain 
+{\tc\tcl2 \v TestDatabaseComponent}
+{\xe \v TestDatabaseComponent}
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< oatpp::provider::Provider< oatpp::sqlite::Connection > >, dbConnectionProvider)([]\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b OATPP_CREATE_COMPONENT} (std::shared_ptr< {\b UserDb} >, userDb)([]\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v OATPP_CREATE_COMPONENT\:TestDatabaseComponent}
+{\xe \v TestDatabaseComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestDatabaseComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< oatpp::provider::Provider< oatpp::sqlite::Connection > > , dbConnectionProvider ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create database connection provider component \par
+}}
+{\xe \v OATPP_CREATE_COMPONENT\:TestDatabaseComponent}
+{\xe \v TestDatabaseComponent\:OATPP_CREATE_COMPONENT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TestDatabaseComponent::OATPP_CREATE_COMPONENT (std::shared_ptr< {\b UserDb} > , userDb ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Create database client \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+test/app/TestDatabaseComponent.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TodoController\par \pard\plain 
+{\tc\tcl2 \v TodoController}
+{\xe \v TodoController}
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Todo REST controller. }}\par
+{
+{\f2 #include <TodoController.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:TodoController:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_todo_controller.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b TodoController} (OATPP_COMPONENT(std::shared_ptr< ObjectMapper >, objectMapper)){\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (getTodo){\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("GET", "todo/", getTodo){\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (getTodoById){\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("GET", "todo/\{todoId\}", getTodoById, PATH(Int32, todoId)){\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (putTodo){\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("PUT", "todo/\{todoId\}", putTodo, PATH(Int32, todoId), BODY_DTO(Object< {\b TodoDto} >, todoDto)){\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (createTodo){\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("POST", "todo", createTodo, BODY_DTO(Object< {\b TodoDto} >, todoDto)){\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static std::shared_ptr< {\b TodoController} > {\b createShared} (){\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Todo REST controller. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+REST \'EA\'EE\'ED\'F2\'F0\'EE\'EB\'EB\'E5\'F0 \'F0\'E0\'F1\'EF\'E8\'F1\'E0\'ED\'E8\'E9. \'C7\'E0\'E4\'E0\'E5\'F2 \'FD\'ED\'E4\'EF\'EE\'E8\'ED\'F2\'FB \'F1\'E5\'F0\'E2\'E5\'F0\'E0, \'E7\'E0\'E4\'E0\'E5\'F2 CORS \'EF\'EE\'EB\'E8\'F2\'E8\'EA\'F3 \'E8 \'E4\'EE\'EA\'F3\'EC\'E5\'ED\'F2\'E8\'F0\'F3\'E5\'F2 \'F1\'E5\'E1\'FF \'F7\'E5\'F0\'E5\'E7 Swagger \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/controller/TodoController.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TodoDto\par \pard\plain 
+{\tc\tcl2 \v TodoDto}
+{\xe \v TodoDto}
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\par
+{
+{\f2 #include <TodoDto.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:TodoDto:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_todo_dto.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D4\'E0\'E9\'EB \'F1\'EE \'CE\'E1\'FA\'E5\'EA\'F2\'EE\'EC "\'C7\'E0\'E4\'E0\'F7\'E0" \'D1\'F2\'F3\'EA\'F2\'F3\'F0\'E0 \'EE\'F2\'EE\'E1\'F0\'E0\'E6\'E0\'FE\'F9\'E0\'FF \'EE\'E1\'FA\'E5\'EA\'F2 "\'C7\'E0\'E4\'E0\'F7\'E0", \'EF\'EE\'E2\'F2\'EE\'F0\'FF\'E5\'F2 \'EF\'EE\'EB\'FF \'E2 \'C1\'C4 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/dto/TodoDto.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TodoPageDto\par \pard\plain 
+{\tc\tcl2 \v TodoPageDto}
+{\xe \v TodoPageDto}
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:TodoPageDto:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_todo_page_dto.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/dto/PageDto.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 TodoService\par \pard\plain 
+{\tc\tcl2 \v TodoService}
+{\xe \v TodoService}
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+oatpp::Object< {\b PageDto}< oatpp::Object< {\b TodoDto} > > > {\b getAllTodo} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4, \'E4\'E5\'EB\'E0\'FE\'F9\'E8\'E9 \'E7\'E0\'EF\'F0\'EE\'F1 \'E2 \'C1\'C4 \'E8 \'F1\'EE\'E7\'E4\'E0\'FE\'F9\'E8\'E9 \'EE\'E1\'FA\'E5\'EA\'F2 \'EE\'F2\'E2\'E5\'F2\'E0 \'ED\'E0 \'E7\'E0\'EF\'F0\'EE\'F1 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< {\b TodoDto} > {\b createTodo} (const oatpp::Object< {\b TodoDto} > &dto){\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< {\b TodoDto} > {\b getTodoById} (const oatpp::Int32 &id){\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< {\b TodoDto} > {\b updateTodo} (const oatpp::Object< {\b TodoDto} > &dto){\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v getAllTodo\:TodoService}
+{\xe \v TodoService\:getAllTodo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+oatpp::Object< {\b PageDto}< oatpp::Object< {\b TodoDto} > > > TodoService::getAllTodo ()}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4, \'E4\'E5\'EB\'E0\'FE\'F9\'E8\'E9 \'E7\'E0\'EF\'F0\'EE\'F1 \'E2 \'C1\'C4 \'E8 \'F1\'EE\'E7\'E4\'E0\'FE\'F9\'E8\'E9 \'EE\'E1\'FA\'E5\'EA\'F2 \'EE\'F2\'E2\'E5\'F2\'E0 \'ED\'E0 \'E7\'E0\'EF\'F0\'EE\'F1 }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+\'D1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 \'EE\'F2\'E2\'E5\'F2\'E0 \'F1 \'E2\'EB\'EE\'E6\'E5\'ED\'ED\'EE\'E9 \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'EE\'E9 \'F0\'E0\'F1\'EF\'E8\'F1\'E0\'ED\'E8\'FF \par
+}}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/service/TodoService.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/service/TodoService.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UserController\par \pard\plain 
+{\tc\tcl2 \v UserController}
+{\xe \v UserController}
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\par
+{
+{\f2 #include <UserController.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:UserController:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_controller.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b UserController} (OATPP_COMPONENT(std::shared_ptr< ObjectMapper >, objectMapper)){\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (createUser){\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("POST", "users", createUser, BODY_DTO(Object< UserDto >, userDto)){\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (putUser){\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("PUT", "users/\{userId\}", putUser, PATH(Int32, userId), BODY_DTO(Object< UserDto >, userDto)){\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (getUserById){\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("GET", "users/\{userId\}", getUserById, PATH(Int32, userId)){\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (getUsers){\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("GET", "users/offset/\{offset\}/limit/\{limit\}", getUsers, PATH(UInt32, offset), PATH(UInt32, limit)){\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT_INFO} (deleteUser){\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ENDPOINT} ("DELETE", "users/\{userId\}", deleteUser, PATH(Int32, userId)){\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+static std::shared_ptr< {\b UserController} > {\b createShared} (){\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+User REST controller. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/controller/UserController.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UserControllerTest\par \pard\plain 
+{\tc\tcl2 \v UserControllerTest}
+{\xe \v UserControllerTest}
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:UserControllerTest:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_controller_test.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b onRun} () override{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+test/UserControllerTest.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+test/UserControllerTest.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UserDb\par \pard\plain 
+{\tc\tcl2 \v UserDb}
+{\xe \v UserDb}
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2 \'EA\'EB\'E0\'F1\'F1\'E5 \'F1\'EE\'E4\'E5\'F0\'E6\'E0\'F2\'F1\'FF \'EC\'E5\'F2\'EE\'E4\'FB, \'E2\'FB\'EF\'EE\'EB\'ED\'FF\'FE\'F9\'E8\'E5 SQL \'E7\'E0\'EF\'F0\'EE\'F1\'FB. \'CF\'EE \'F1\'E2\'EE\'E5\'E9 \'F1\'F3\'F2\'E8 \'FF\'E2\'EB\'FF\'E5\'F2\'F1\'FF \'EC\'EE\'E4\'E5\'EB\'FC\'FE }}\par
+{
+{\f2 #include <UserDb.hpp>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:UserDb:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_db.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b UserDb} (const std::shared_ptr< oatpp::orm::Executor > &executor){\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b QUERY} (createUser, "INSERT INTO AppUser" "(username, email, password, role) VALUES " "(:user.username, :user.email, :user.password, :user.role);", PARAM(oatpp::Object< UserDto >, user)) QUERY(updateUser{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::Object< UserDto >, user)) QUERY(getUserById{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::Int32, id)) QUERY(getAllUsers{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::UInt32, offset){\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::UInt32, limit)) QUERY(deleteUserById{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::Int32, id)) QUERY(getTodoById{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::Int32, id)) QUERY(updateTodo{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b PARAM} (oatpp::Object< {\b TodoDto} >, todo)) QUERY(createTodo{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+UPDATE AppUser SET {\b username} =:user.username{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+UPDATE AppUser SET {\b email} =:user.email{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+UPDATE AppUser SET {\b password} =:user.password{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+UPDATE AppUser SET {\b role}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+SELECT *FROM AppUser WHERE {\b id} =:id{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+SELECT *FROM AppUser {\b LIMIT}:limit OFFSET :offset{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+DELETE FROM AppUser WHERE {\b id} =:id{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+SELECT *FROM Todo WHERE {\b todo_id} =:id{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+UPDATE Todo SET {\b title} =:todo.title{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+UPDATE Todo SET {\b done}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+INSERT INTO {\b Todo} (title, done) VALUES " "({\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2 \'EA\'EB\'E0\'F1\'F1\'E5 \'F1\'EE\'E4\'E5\'F0\'E6\'E0\'F2\'F1\'FF \'EC\'E5\'F2\'EE\'E4\'FB, \'E2\'FB\'EF\'EE\'EB\'ED\'FF\'FE\'F9\'E8\'E5 SQL \'E7\'E0\'EF\'F0\'EE\'F1\'FB. \'CF\'EE \'F1\'E2\'EE\'E5\'E9 \'F1\'F3\'F2\'E8 \'FF\'E2\'EB\'FF\'E5\'F2\'F1\'FF \'EC\'EE\'E4\'E5\'EB\'FC\'FE \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v done\:UserDb}
+{\xe \v UserDb\:done}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+UPDATE Todo SET UserDb::done}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\b \'C8\'ED\'E8\'F6\'E8\'E0\'EB\'E8\'E7\'E0\'F2\'EE\'F0}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid =:todo.done {\cf22 "}\par
+{\cf22         "}WHERE {\cf22 "}\par
+{\cf22         "} todo_id=:todo.todo_id\par
+}
+}
+{\xe \v role\:UserDb}
+{\xe \v UserDb\:role}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+UPDATE AppUser SET UserDb::role}}
+\par
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\b \'C8\'ED\'E8\'F6\'E8\'E0\'EB\'E8\'E7\'E0\'F2\'EE\'F0}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid =:user.role {\cf22 "}\par
+{\cf22         "}WHERE {\cf22 "}\par
+{\cf22         "} {\cf18 id}=:user.id\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/db/UserDb.hpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UserService\par \pard\plain 
+{\tc\tcl2 \v UserService}
+{\xe \v UserService}
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< UserDto > {\b createUser} (const oatpp::Object< UserDto > &dto){\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< UserDto > {\b updateUser} (const oatpp::Object< UserDto > &dto){\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< UserDto > {\b getUserById} (const oatpp::Int32 &id, const oatpp::provider::ResourceHandle< oatpp::orm::Connection > &connection=nullptr){\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< {\b PageDto}< oatpp::Object< UserDto > > > {\b getAllUsers} (const oatpp::UInt32 &offset, const oatpp::UInt32 &limit){\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+oatpp::Object< {\b StatusDto} > {\b deleteUserById} (const oatpp::Int32 &id){\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/service/UserService.hpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/service/UserService.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UsersPageDto\par \pard\plain 
+{\tc\tcl2 \v UsersPageDto}
+{\xe \v UsersPageDto}
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:UsersPageDto:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_users_page_dto.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/dto/PageDto.hpp\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D4\'E0\'E9\'EB\'FB{\tc \v \'D4\'E0\'E9\'EB\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+AppComponent.hpp\par \pard\plain 
+{\tc\tcl2 \v src/AppComponent.hpp}
+{\xe \v src/AppComponent.hpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef AppComponent_hpp}\par
+3 {\cf21 #define AppComponent_hpp}\par
+4 \par
+5 {\cf21 #include "SwaggerComponent.hpp"}\par
+6 {\cf21 #include "DatabaseComponent.hpp"}\par
+7 \par
+8 {\cf21 #include "ErrorHandler.hpp"}\par
+9 \par
+10 {\cf21 #include "oatpp/web/server/HttpConnectionHandler.hpp"}\par
+11 {\cf21 #include "oatpp/web/server/HttpRouter.hpp"}\par
+12 {\cf21 #include "oatpp/network/tcp/server/ConnectionProvider.hpp"}\par
+13 \par
+14 {\cf21 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"}\par
+15 \par
+16 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+17 \par
+22 {\cf17 class }AppComponent \{\par
+23 {\cf17 public}:\par
+24   \par
+28   SwaggerComponent swaggerComponent;\par
+29 \par
+33   DatabaseComponent databaseComponent;\par
+34 \par
+38   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::data::mapping::ObjectMapper>, apiObjectMapper)([] \{\par
+39     {\cf17 auto} objectMapper = oatpp::parser::json::mapping::ObjectMapper::createShared();\par
+40     objectMapper->getDeserializer()->getConfig()->allowUnknownFields = {\cf17 false};\par
+41     {\cf19 return} objectMapper;\par
+42   \}());\par
+43   \par
+47   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ServerConnectionProvider>, serverConnectionProvider)([] \{\par
+48     {\cf19 return} oatpp::network::tcp::server::ConnectionProvider::createShared(\{{\cf22 "0.0.0.0"}, 8000, oatpp::network::Address::IP_4\});\par
+49   \}());\par
+50   \par
+54   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, httpRouter)([] \{\par
+55     {\cf19 return} oatpp::web::server::HttpRouter::createShared();\par
+56   \}());\par
+57   \par
+61   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ConnectionHandler>, serverConnectionHandler)([] \{\par
+62 \par
+63     OATPP_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, router); {\cf20 // get Router component}\par
+64     OATPP_COMPONENT(std::shared_ptr<oatpp::data::mapping::ObjectMapper>, objectMapper); {\cf20 // get ObjectMapper component}\par
+65 \par
+66     {\cf17 auto} connectionHandler = oatpp::web::server::HttpConnectionHandler::createShared(router);\par
+67     connectionHandler->setErrorHandler(std::make_shared<ErrorHandler>(objectMapper));\par
+68     {\cf19 return} connectionHandler;\par
+69 \par
+70   \}());\par
+71 \par
+72 \};\par
+73 \par
+74 {\cf21 #endif }{\cf20 /* AppComponent_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+StaticController.hpp\par \pard\plain 
+{\tc\tcl2 \v src/controller/StaticController.hpp}
+{\xe \v src/controller/StaticController.hpp}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef CRUD_STATICCONTROLLER_HPP}\par
+3 {\cf21 #define CRUD_STATICCONTROLLER_HPP}\par
+4 \par
+5 {\cf21 #include "oatpp/web/server/api/ApiController.hpp"}\par
+6 {\cf21 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"}\par
+7 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+8 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+9 \par
+10 {\cf21 #include OATPP_CODEGEN_BEGIN(ApiController) }{\cf20 //<- Begin Codegen}\par
+11 \par
+12 {\cf17 class }StaticController : {\cf17 public} oatpp::web::server::api::ApiController \{\par
+13 {\cf17 public}:\par
+14   StaticController({\cf17 const} std::shared_ptr<ObjectMapper>& objectMapper)\par
+15     : oatpp::web::server::api::ApiController(objectMapper)\par
+16   \{\}\par
+17 {\cf17 public}:\par
+18 \par
+19   {\cf17 static} std::shared_ptr<StaticController> createShared(\par
+20     OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper) {\cf20 // Inject objectMapper component here as default parameter}\par
+21   )\{\par
+22     {\cf19 return} std::make_shared<StaticController>(objectMapper);\par
+23   \}\par
+24 \par
+25   ENDPOINT({\cf22 "GET"}, {\cf22 "/"}, root) \{\par
+26     {\cf17 const} {\cf18 char}* html =\par
+27       {\cf22 "<html lang='en'>"}\par
+28       {\cf22 "  <head>"}\par
+29       {\cf22 "    <meta charset=utf-8/>"}\par
+30       {\cf22 "  </head>"}\par
+31       {\cf22 "  <body>"}\par
+32       {\cf22 "    <p>Hello CRUD example project!</p>"}\par
+33       {\cf22 "    <a href='swagger/ui'>Checkout Swagger-UI page</a>"}\par
+34       {\cf22 "  </body>"}\par
+35       {\cf22 "</html>"};\par
+36     {\cf17 auto} response = createResponse(Status::CODE_200, html);\par
+37     response->putHeader(Header::CONTENT_TYPE, {\cf22 "text/html"});\par
+38     {\cf19 return} response;\par
+39   \}\par
+40 \par
+41 \};\par
+42 \par
+43 {\cf21 #include OATPP_CODEGEN_END(ApiController) }{\cf20 //<- End Codegen}\par
+44 \par
+45 {\cf21 #endif }{\cf20 //CRUD_STATICCONTROLLER_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TodoController.hpp\par \pard\plain 
+{\tc\tcl2 \v src/controller/TodoController.hpp}
+{\xe \v src/controller/TodoController.hpp}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+5 {\cf21 #ifndef TodoController_hpp}\par
+6 {\cf21 #define TodoController_hpp}\par
+7 \par
+8 {\cf21 #include "service/TodoService.hpp"}\par
+9 {\cf21 #include "dto/PageDto.hpp"}\par
+10 {\cf21 #include "oatpp/web/server/api/ApiController.hpp"}\par
+11 {\cf21 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"}\par
+12 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+13 \par
+14 {\cf21 #include OATPP_CODEGEN_BEGIN(ApiController) }{\cf20 //<- Begin Codegen}\par
+15 \par
+20 {\cf17 class }TodoController : {\cf17 public} oatpp::web::server::api::ApiController \{\par
+21 {\cf17 public}:\par
+22   TodoController(OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper))\par
+23     : oatpp::web::server::api::ApiController(objectMapper)\par
+24   \{\}\par
+25 {\cf17 private}:\par
+26 \par
+27   TodoService m_todoService;\par
+28 {\cf17 public}:\par
+29 \par
+30   {\cf17 static} std::shared_ptr<TodoController> createShared(\par
+31     OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper)\par
+32   )\{\par
+33     {\cf19 return} std::make_shared<TodoController>(objectMapper);\par
+34   \}\par
+35 \par
+36   ADD_CORS(getTodo)\par
+37   ENDPOINT_INFO(getTodo) \{\par
+38     info->summary = {\cf22 "get all stored todo"};\par
+39 \par
+40     info->addResponse<oatpp::Object<TodoPageDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+41   \}\par
+42   ENDPOINT({\cf22 "GET"}, {\cf22 "todo/"}, getTodo)\par
+43   \{\par
+44     {\cf17 auto} response = createDtoResponse(Status::CODE_200, m_todoService.getAllTodo());\par
+45     response->putHeaderIfNotExists({\cf22 "Access-Control-Allow-Methods"}, {\cf22 "GET, POST, PUT, OPTIONS, DELETE"});\par
+46     response->putHeaderIfNotExists({\cf22 "Access-Control-Allow-Origin"}, {\cf22 "*"});\par
+47     {\cf19 return} response;\par
+48   \}\par
+49 \par
+50   ADD_CORS(getTodoById)\par
+51   ENDPOINT_INFO(getTodoById) \{\par
+52     info->summary = {\cf22 "Get one Todo by todoId"};\par
+53 \par
+54     info->addResponse<Object<TodoDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+55     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+56     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+57 \par
+58     info->pathParams[{\cf22 "todoId"}].description = {\cf22 "Todo Identifier"};\par
+59   \}\par
+60 \par
+61   ENDPOINT({\cf22 "GET"}, {\cf22 "todo/\{todoId\}"}, getTodoById,\par
+62            PATH(Int32, todoId))\par
+63   \{\par
+64     {\cf19 return} createDtoResponse(Status::CODE_200, m_todoService.getTodoById(todoId));\par
+65   \}\par
+66 \par
+67   ENDPOINT_INFO(putTodo) \{\par
+68     info->summary = {\cf22 "Update Todo by todoId"};\par
+69 \par
+70     info->addConsumes<Object<TodoDto>>({\cf22 "application/json"});\par
+71 \par
+72     info->addResponse<Object<TodoDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+73     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+74     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+75 \par
+76     info->pathParams[{\cf22 "todoId"}].description = {\cf22 "Todo Identifier"};\par
+77   \}\par
+78   ADD_CORS(putTodo)\par
+79   ENDPOINT({\cf22 "PUT"}, {\cf22 "todo/\{todoId\}"}, putTodo,\par
+80            PATH(Int32, todoId),\par
+81            BODY_DTO(Object<TodoDto>, todoDto))\par
+82   \{\par
+83     todoDto->todo_id = todoId;\par
+84 \par
+85     {\cf17 auto} response = createDtoResponse(Status::CODE_200, m_todoService.updateTodo(todoDto));\par
+86     response->putHeaderIfNotExists({\cf22 "Access-Control-Allow-Methods"}, {\cf22 "GET, POST, PUT, OPTIONS, DELETE"});\par
+87     response->putHeaderIfNotExists({\cf22 "Access-Control-Allow-Origin"}, {\cf22 "*"});\par
+88     {\cf19 return} response;\par
+89   \}\par
+90 \par
+91 \par
+92   ENDPOINT_INFO(createTodo) \{\par
+93     info->summary = {\cf22 "Create new Todo"};\par
+94 \par
+95     info->addConsumes<Object<TodoDto>>({\cf22 "application/json"});\par
+96 \par
+97     info->addResponse<Object<TodoDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+98     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+99     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+100   \}\par
+101   ADD_CORS(createTodo)\par
+102   ENDPOINT({\cf22 "POST"}, {\cf22 "todo"}, createTodo,\par
+103            BODY_DTO(Object<TodoDto>, todoDto))\par
+104   \{\par
+105     {\cf19 return} createDtoResponse(Status::CODE_200, m_todoService.createTodo(todoDto));\par
+106   \}\par
+107 \par
+108 \};\par
+109 \par
+110 {\cf21 #include OATPP_CODEGEN_END(ApiController) }{\cf20 //<- End Codegen}\par
+111 \par
+112 {\cf21 #endif }{\cf20 /* TodoController_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+UserController.hpp\par \pard\plain 
+{\tc\tcl2 \v src/controller/UserController.hpp}
+{\xe \v src/controller/UserController.hpp}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef UserController_hpp}\par
+3 {\cf21 #define UserController_hpp}\par
+4 \par
+5 {\cf21 #include "service/UserService.hpp"}\par
+6 \par
+7 {\cf21 #include "oatpp/web/server/api/ApiController.hpp"}\par
+8 {\cf21 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"}\par
+9 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+10 \par
+11 {\cf21 #include OATPP_CODEGEN_BEGIN(ApiController) }{\cf20 //<- Begin Codegen}\par
+12 \par
+16 {\cf17 class }UserController : {\cf17 public} oatpp::web::server::api::ApiController \{\par
+17 {\cf17 public}:\par
+18   UserController(OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper))\par
+19     : oatpp::web::server::api::ApiController(objectMapper)\par
+20   \{\}\par
+21 {\cf17 private}:\par
+22   UserService m_userService; {\cf20 // Create user service.}\par
+23 {\cf17 public}:\par
+24 \par
+25   {\cf17 static} std::shared_ptr<UserController> createShared(\par
+26     OATPP_COMPONENT(std::shared_ptr<ObjectMapper>, objectMapper) {\cf20 // Inject objectMapper component here as default parameter}\par
+27   )\{\par
+28     {\cf19 return} std::make_shared<UserController>(objectMapper);\par
+29   \}\par
+30   \par
+31   ENDPOINT_INFO(createUser) \{\par
+32     info->summary = {\cf22 "Create new User"};\par
+33 \par
+34     info->addConsumes<Object<UserDto>>({\cf22 "application/json"});\par
+35 \par
+36     info->addResponse<Object<UserDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+37     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+38     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+39   \}\par
+40   ENDPOINT({\cf22 "POST"}, {\cf22 "users"}, createUser,\par
+41            BODY_DTO(Object<UserDto>, userDto))\par
+42   \{\par
+43     {\cf19 return} createDtoResponse(Status::CODE_200, m_userService.createUser(userDto));\par
+44   \}\par
+45   \par
+46   \par
+47   ENDPOINT_INFO(putUser) \{\par
+48     info->summary = {\cf22 "Update User by userId"};\par
+49 \par
+50     info->addConsumes<Object<UserDto>>({\cf22 "application/json"});\par
+51 \par
+52     info->addResponse<Object<UserDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+53     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+54     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+55 \par
+56     info->pathParams[{\cf22 "userId"}].description = {\cf22 "User Identifier"};\par
+57   \}\par
+58   ENDPOINT({\cf22 "PUT"}, {\cf22 "users/\{userId\}"}, putUser,\par
+59            PATH(Int32, userId),\par
+60            BODY_DTO(Object<UserDto>, userDto))\par
+61   \{\par
+62     userDto->id = userId;\par
+63     {\cf19 return} createDtoResponse(Status::CODE_200, m_userService.updateUser(userDto));\par
+64   \}\par
+65   \par
+66   \par
+67   ENDPOINT_INFO(getUserById) \{\par
+68     info->summary = {\cf22 "Get one User by userId"};\par
+69 \par
+70     info->addResponse<Object<UserDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+71     info->addResponse<Object<StatusDto>>(Status::CODE_404, {\cf22 "application/json"});\par
+72     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+73 \par
+74     info->pathParams[{\cf22 "userId"}].description = {\cf22 "User Identifier"};\par
+75   \}\par
+76   ENDPOINT({\cf22 "GET"}, {\cf22 "users/\{userId\}"}, getUserById,\par
+77            PATH(Int32, userId))\par
+78   \{\par
+79     {\cf19 return} createDtoResponse(Status::CODE_200, m_userService.getUserById(userId));\par
+80   \}\par
+81   \par
+82   \par
+83   ENDPOINT_INFO(getUsers) \{\par
+84     info->summary = {\cf22 "get all stored users"};\par
+85 \par
+86     info->addResponse<oatpp::Object<UsersPageDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+87     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+88   \}\par
+89   ENDPOINT({\cf22 "GET"}, {\cf22 "users/offset/\{offset\}/limit/\{limit\}"}, getUsers,\par
+90            PATH(UInt32, offset),\par
+91            PATH(UInt32, limit))\par
+92   \{\par
+93     {\cf19 return} createDtoResponse(Status::CODE_200, m_userService.getAllUsers(offset, limit));\par
+94   \}\par
+95   \par
+96   \par
+97   ENDPOINT_INFO(deleteUser) \{\par
+98     info->summary = {\cf22 "Delete User by userId"};\par
+99 \par
+100     info->addResponse<Object<StatusDto>>(Status::CODE_200, {\cf22 "application/json"});\par
+101     info->addResponse<Object<StatusDto>>(Status::CODE_500, {\cf22 "application/json"});\par
+102 \par
+103     info->pathParams[{\cf22 "userId"}].description = {\cf22 "User Identifier"};\par
+104   \}\par
+105   ENDPOINT({\cf22 "DELETE"}, {\cf22 "users/\{userId\}"}, deleteUser,\par
+106            PATH(Int32, userId))\par
+107   \{\par
+108     {\cf19 return} createDtoResponse(Status::CODE_200, m_userService.deleteUserById(userId));\par
+109   \}\par
+110 \par
+111 \};\par
+112 \par
+113 {\cf21 #include OATPP_CODEGEN_END(ApiController) }{\cf20 //<- End Codegen}\par
+114 \par
+115 {\cf21 #endif }{\cf20 /* UserController_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+DatabaseComponent.hpp\par \pard\plain 
+{\tc\tcl2 \v src/DatabaseComponent.hpp}
+{\xe \v src/DatabaseComponent.hpp}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+4 {\cf21 #ifndef CRUD_DATABASECOMPONENT_HPP}\par
+5 {\cf21 #define CRUD_DATABASECOMPONENT_HPP}\par
+6 \par
+7 {\cf21 #include "db/UserDb.hpp"}\par
+8 \par
+9 {\cf17 class }DatabaseComponent \{\par
+10 {\cf17 public}:\par
+11     \par
+15   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, dbConnectionProvider)([] \{\par
+16 \par
+17     {\cf20 /* Create database-specific ConnectionProvider */}\par
+18     {\cf17 auto} connectionProvider = std::make_shared<oatpp::sqlite::ConnectionProvider>(DATABASE_FILE);\par
+19 \par
+20     {\cf20 /* Create database-specific ConnectionPool */}\par
+21     {\cf19 return} oatpp::sqlite::ConnectionPool::createShared(connectionProvider,\par
+22                                                        10 {\cf20 /* max-connections */},\par
+23                                                        std::chrono::seconds(5) {\cf20 /* connection TTL */});\par
+24 \par
+25   \}());\par
+26 \par
+30   OATPP_CREATE_COMPONENT(std::shared_ptr<UserDb>, userDb)([] \{\par
+31 \par
+32     {\cf20 /* Get database ConnectionProvider component */}\par
+33     OATPP_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, connectionProvider);\par
+34 \par
+35     {\cf20 /* Create database-specific Executor */}\par
+36     {\cf17 auto} executor = std::make_shared<oatpp::sqlite::Executor>(connectionProvider);\par
+37 \par
+38     {\cf20 /* Create MyClient database client */}\par
+39     {\cf19 return} std::make_shared<UserDb>(executor);\par
+40 \par
+41   \}());\par
+42 \par
+43 \};\par
+44 \par
+45 {\cf21 #endif }{\cf20 //CRUD_DATABASECOMPONENT_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+UserDb.hpp\par \pard\plain 
+{\tc\tcl2 \v src/db/UserDb.hpp}
+{\xe \v src/db/UserDb.hpp}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+4 {\cf21 #ifndef CRUD_USERDB_HPP}\par
+5 {\cf21 #define CRUD_USERDB_HPP}\par
+6 \par
+7 {\cf21 #include "dto/UserDto.hpp"}\par
+8 {\cf21 #include "dto/TodoDto.hpp"}\par
+9 {\cf21 #include "oatpp-sqlite/orm.hpp"}\par
+10 \par
+11 {\cf21 #include OATPP_CODEGEN_BEGIN(DbClient) }{\cf20 //<- Begin Codegen}\par
+12 \par
+16 {\cf17 class }UserDb : {\cf17 public} oatpp::orm::DbClient \{\par
+17 {\cf17 public}:\par
+18 \par
+19   UserDb({\cf17 const} std::shared_ptr<oatpp::orm::Executor> &executor)\par
+20       : oatpp::orm::DbClient(executor) \{\par
+21 \par
+22     oatpp::orm::SchemaMigration migration(executor);\par
+23     migration.addFile(1 {\cf20 /* start from version 1 */}, DATABASE_MIGRATIONS {\cf22 "/001_init.sql"});\par
+24     {\cf20 // TODO - Add more migrations here.}\par
+25     migration.migrate(); {\cf20 // <-- run migrations. This guy will throw on error.}\par
+26 \par
+27     {\cf17 auto} version = executor->getSchemaVersion();\par
+28     OATPP_LOGD({\cf22 "UserDb"}, {\cf22 "Migration - OK. Version=%lld."}, version);\par
+29 \par
+30   \}\par
+31 \par
+32   QUERY(createUser,\par
+33         {\cf22 "INSERT INTO AppUser"}\par
+34         {\cf22 "(username, email, password, role) VALUES "}\par
+35         {\cf22 "(:user.username, :user.email, :user.password, :user.role);"},\par
+36         PARAM(oatpp::Object<UserDto>, user))\par
+37 \par
+38   QUERY(updateUser,\par
+39         {\cf22 "UPDATE AppUser "}\par
+40         {\cf22 "SET "}\par
+41         {\cf22 " username=:user.username, "}\par
+42         {\cf22 " email=:user.email, "}\par
+43         {\cf22 " password=:user.password, "}\par
+44         {\cf22 " role=:user.role "}\par
+45         {\cf22 "WHERE "}\par
+46         {\cf22 " id=:user.id;"},\par
+47         PARAM(oatpp::Object<UserDto>, user))\par
+48 \par
+49   QUERY(getUserById,\par
+50         {\cf22 "SELECT * FROM AppUser WHERE id=:id;"},\par
+51         PARAM(oatpp::Int32, {\cf18 id}))\par
+52 \par
+53   QUERY(getAllUsers,\par
+54         {\cf22 "SELECT * FROM AppUser LIMIT :limit OFFSET :offset;"},\par
+55         PARAM(oatpp::UInt32, offset),\par
+56         PARAM(oatpp::UInt32, limit))\par
+57 \par
+58   QUERY(deleteUserById,\par
+59         {\cf22 "DELETE FROM AppUser WHERE id=:id;"},\par
+60         PARAM(oatpp::Int32, {\cf18 id}))\par
+61 \par
+62   QUERY(getAllTodo, {\cf22 "SELECT * FROM Todo"})\par
+63 \par
+64   QUERY(getTodoById,\par
+65         {\cf22 "SELECT * FROM Todo WHERE todo_id=:id;"},\par
+66         PARAM(oatpp::Int32, {\cf18 id}))\par
+67 \par
+68   QUERY(updateTodo,\par
+69         {\cf22 "UPDATE Todo "}\par
+70         {\cf22 "SET "}\par
+71         {\cf22 " title=:todo.title, "}\par
+72         {\cf22 " done=:todo.done "}\par
+73         {\cf22 "WHERE "}\par
+74         {\cf22 " todo_id=:todo.todo_id;"},\par
+75         PARAM(oatpp::Object<TodoDto>, todo))\par
+76 \par
+77   QUERY(createTodo,\par
+78         {\cf22 " INSERT INTO Todo "}\par
+79         {\cf22 " (title, done) VALUES  "}\par
+80         {\cf22 " (:todo.title, :todo.done); "},\par
+81         PARAM(oatpp::Object<TodoDto>, todo))\par
+82 \par
+83 \};\par
+84 \par
+85 {\cf21 #include OATPP_CODEGEN_END(DbClient) }{\cf20 //<- End Codegen}\par
+86 \par
+87 {\cf21 #endif }{\cf20 //CRUD_USERDB_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+PageDto.hpp\par \pard\plain 
+{\tc\tcl2 \v src/dto/PageDto.hpp}
+{\xe \v src/dto/PageDto.hpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+4 {\cf21 #ifndef CRUD_PAGEDTO_HPP}\par
+5 {\cf21 #define CRUD_PAGEDTO_HPP}\par
+6 \par
+7 {\cf21 #include "UserDto.hpp"}\par
+8 {\cf21 #include "TodoDto.hpp"}\par
+9 \par
+10 {\cf21 #include OATPP_CODEGEN_BEGIN(DTO)}\par
+11 \par
+16 {\cf17 template}<{\cf17 class} T>\par
+17 {\cf17 class }PageDto : {\cf17 public} oatpp::DTO \{\par
+18 \par
+19   DTO_INIT(PageDto, DTO)\par
+20 \par
+21   DTO_FIELD(UInt32, offset);\par
+22   DTO_FIELD(UInt32, limit);\par
+23   DTO_FIELD(UInt32, count);\par
+24   DTO_FIELD(Vector<T>, items);\par
+25 \par
+26 \};\par
+27 \par
+28 {\cf17 class }UsersPageDto : {\cf17 public} PageDto<oatpp::Object<UserDto>> \{\par
+29 \par
+30   DTO_INIT(UsersPageDto, PageDto<oatpp::Object<UserDto>>)\par
+31 \par
+32 \};\par
+33 \par
+34 {\cf17 class }TodoPageDto : {\cf17 public} PageDto<oatpp::Object<TodoDto>> \{\par
+35 \par
+36   DTO_INIT(TodoPageDto, PageDto<oatpp::Object<TodoDto>>)\par
+37 \par
+38 \};\par
+39 \par
+40 {\cf21 #include OATPP_CODEGEN_END(DTO)}\par
+41 \par
+42 {\cf21 #endif }{\cf20 //CRUD_PAGEDTO_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+StatusDto.hpp\par \pard\plain 
+{\tc\tcl2 \v src/dto/StatusDto.hpp}
+{\xe \v src/dto/StatusDto.hpp}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef CRUD_STATUSDTO_HPP}\par
+3 {\cf21 #define CRUD_STATUSDTO_HPP}\par
+4 \par
+5 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+6 {\cf21 #include "oatpp/core/Types.hpp"}\par
+7 \par
+8 {\cf21 #include OATPP_CODEGEN_BEGIN(DTO)}\par
+9 \par
+10 {\cf17 class }StatusDto : {\cf17 public} oatpp::DTO \{\par
+11 \par
+12   DTO_INIT(StatusDto, DTO)\par
+13 \par
+14   DTO_FIELD_INFO(status) \{\par
+15     info->description = {\cf22 "Short status text"};\par
+16   \}\par
+17   DTO_FIELD(String, status);\par
+18 \par
+19   DTO_FIELD_INFO(code) \{\par
+20     info->description = {\cf22 "Status code"};\par
+21   \}\par
+22   DTO_FIELD(Int32, code);\par
+23 \par
+24   DTO_FIELD_INFO(message) \{\par
+25     info->description = {\cf22 "Verbose message"};\par
+26   \}\par
+27   DTO_FIELD(String, message);\par
+28 \par
+29 \};\par
+30 \par
+31 {\cf21 #include OATPP_CODEGEN_END(DTO)}\par
+32 \par
+33 {\cf21 #endif }{\cf20 //CRUD_STATUSDTO_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TodoDto.hpp\par \pard\plain 
+{\tc\tcl2 \v src/dto/TodoDto.hpp}
+{\xe \v src/dto/TodoDto.hpp}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+4 {\cf21 #ifndef TodoDto_hpp}\par
+5 {\cf21 #define TodoDto_hpp}\par
+6 \par
+7 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+8 {\cf21 #include "oatpp/core/Types.hpp"}\par
+9 \par
+10 {\cf21 #include OATPP_CODEGEN_BEGIN(DTO)}\par
+11 \par
+15 {\cf17 class }TodoDto : {\cf17 public} oatpp::DTO \{\par
+16   \par
+17   DTO_INIT(TodoDto, DTO)\par
+18 \par
+19   DTO_FIELD(Int32, todo_id, {\cf22 "todo_id"});\par
+20   DTO_FIELD(String, title, {\cf22 "title"});\par
+21   DTO_FIELD(Boolean , done, {\cf22 "done"});\par
+22 \};\par
+23 \par
+24 {\cf21 #include OATPP_CODEGEN_END(DTO)}\par
+25 \par
+26 {\cf21 #endif }{\cf20 /* TodoDto_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+UserDto.hpp\par \pard\plain 
+{\tc\tcl2 \v src/dto/UserDto.hpp}
+{\xe \v src/dto/UserDto.hpp}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef UserDto_hpp}\par
+2 {\cf21 #define UserDto_hpp}\par
+3 \par
+4 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+5 {\cf21 #include "oatpp/core/Types.hpp"}\par
+6 \par
+7 {\cf21 #include OATPP_CODEGEN_BEGIN(DTO)}\par
+8 \par
+9 ENUM(Role, v_int32,\par
+10      VALUE(GUEST, 0, {\cf22 "ROLE_GUEST"}),\par
+11      VALUE(ADMIN, 1, {\cf22 "ROLE_ADMIN"})\par
+12 )\par
+13 \par
+14 class UserDto : public oatpp::DTO \{\par
+15   \par
+16   DTO_INIT(UserDto, DTO)\par
+17 \par
+18   DTO_FIELD(Int32, {\cf18 id});\par
+19   DTO_FIELD(String, userName, {\cf22 "username"});\par
+20   DTO_FIELD(String, email, {\cf22 "email"});\par
+21   DTO_FIELD(String, password, {\cf22 "password"});\par
+22   DTO_FIELD(Enum<Role>::AsString, role, {\cf22 "role"});\par
+23 \par
+24 \};\par
+25 \par
+26 {\cf21 #include OATPP_CODEGEN_END(DTO)}\par
+27 \par
+28 {\cf21 #endif }{\cf20 /* UserDto_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ErrorHandler.hpp\par \pard\plain 
+{\tc\tcl2 \v src/ErrorHandler.hpp}
+{\xe \v src/ErrorHandler.hpp}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef CRUD_ERRORHANDLER_HPP}\par
+3 {\cf21 #define CRUD_ERRORHANDLER_HPP}\par
+4 \par
+5 {\cf21 #include "dto/StatusDto.hpp"}\par
+6 \par
+7 {\cf21 #include "oatpp/web/server/handler/ErrorHandler.hpp"}\par
+8 {\cf21 #include "oatpp/web/protocol/http/outgoing/ResponseFactory.hpp"}\par
+9 \par
+10 {\cf17 class }ErrorHandler : {\cf17 public} oatpp::web::server::handler::ErrorHandler \{\par
+11 {\cf17 private}:\par
+12   {\cf17 typedef} oatpp::web::protocol::http::outgoing::Response OutgoingResponse;\par
+13   {\cf17 typedef} oatpp::web::protocol::http::Status Status;\par
+14   {\cf17 typedef} oatpp::web::protocol::http::outgoing::ResponseFactory ResponseFactory;\par
+15 {\cf17 private}:\par
+16   std::shared_ptr<oatpp::data::mapping::ObjectMapper> m_objectMapper;\par
+17 {\cf17 public}:\par
+18 \par
+19   ErrorHandler({\cf17 const} std::shared_ptr<oatpp::data::mapping::ObjectMapper>& objectMapper);\par
+20 \par
+21   std::shared_ptr<OutgoingResponse>\par
+22   handleError({\cf17 const} Status& status, {\cf17 const} oatpp::String& message, {\cf17 const} Headers& headers) {\cf17 override};\par
+23 \par
+24 \};\par
+25 \par
+26 \par
+27 {\cf21 #endif }{\cf20 //CRUD_ERRORHANDLER_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TodoService.hpp\par \pard\plain 
+{\tc\tcl2 \v src/service/TodoService.hpp}
+{\xe \v src/service/TodoService.hpp}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef CRUD_TODOSERVICE_HPP}\par
+3 {\cf21 #define CRUD_TODOSERVICE_HPP}\par
+4 \par
+5 {\cf21 #include "db/UserDb.hpp"}\par
+6 {\cf21 #include "dto/PageDto.hpp"}\par
+7 {\cf21 #include "dto/StatusDto.hpp"}\par
+8 \par
+9 {\cf21 #include "oatpp/web/protocol/http/Http.hpp"}\par
+10 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+11 \par
+12 {\cf17 class }TodoService \{\par
+13 {\cf17 private}:\par
+14   {\cf17 typedef} oatpp::web::protocol::http::Status Status;\par
+15 {\cf17 private}:\par
+16   OATPP_COMPONENT(std::shared_ptr<UserDb>, m_database); {\cf20 // Inject database component}\par
+17 {\cf17 public}:\par
+18   oatpp::Object<PageDto<oatpp::Object<TodoDto>>> getAllTodo();\par
+19   oatpp::Object<TodoDto> createTodo({\cf17 const} oatpp::Object<TodoDto>& dto);\par
+20   oatpp::Object<TodoDto> getTodoById({\cf17 const} oatpp::Int32& {\cf18 id});\par
+21   oatpp::Object<TodoDto> updateTodo({\cf17 const} oatpp::Object<TodoDto>& dto);\par
+22 \par
+23 \};\par
+24 \par
+25 {\cf21 #endif }{\cf20 //CRUD_TODOSERVICE_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+UserService.hpp\par \pard\plain 
+{\tc\tcl2 \v src/service/UserService.hpp}
+{\xe \v src/service/UserService.hpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef CRUD_USERSERVICE_HPP}\par
+3 {\cf21 #define CRUD_USERSERVICE_HPP}\par
+4 \par
+5 {\cf21 #include "db/UserDb.hpp"}\par
+6 {\cf21 #include "dto/PageDto.hpp"}\par
+7 {\cf21 #include "dto/StatusDto.hpp"}\par
+8 \par
+9 {\cf21 #include "oatpp/web/protocol/http/Http.hpp"}\par
+10 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+11 \par
+12 {\cf17 class }UserService \{\par
+13 {\cf17 private}:\par
+14   {\cf17 typedef} oatpp::web::protocol::http::Status Status;\par
+15 {\cf17 private}:\par
+16   OATPP_COMPONENT(std::shared_ptr<UserDb>, m_database); {\cf20 // Inject database component}\par
+17 {\cf17 public}:\par
+18 \par
+19   oatpp::Object<UserDto> createUser({\cf17 const} oatpp::Object<UserDto>& dto);\par
+20   oatpp::Object<UserDto> updateUser({\cf17 const} oatpp::Object<UserDto>& dto);\par
+21   oatpp::Object<UserDto> getUserById({\cf17 const} oatpp::Int32& {\cf18 id}, {\cf17 const} oatpp::provider::ResourceHandle<oatpp::orm::Connection>& connection = {\cf17 nullptr});\par
+22   oatpp::Object<PageDto<oatpp::Object<UserDto>>> getAllUsers({\cf17 const} oatpp::UInt32& offset, {\cf17 const} oatpp::UInt32& limit);\par
+23   oatpp::Object<StatusDto> deleteUserById({\cf17 const} oatpp::Int32& {\cf18 id});\par
+24 \par
+25 \};\par
+26 \par
+27 {\cf21 #endif }{\cf20 //CRUD_USERSERVICE_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SwaggerComponent.hpp\par \pard\plain 
+{\tc\tcl2 \v src/SwaggerComponent.hpp}
+{\xe \v src/SwaggerComponent.hpp}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+4 {\cf21 #ifndef SwaggerComponent_hpp}\par
+5 {\cf21 #define SwaggerComponent_hpp}\par
+6 \par
+7 {\cf21 #include "oatpp-swagger/Model.hpp"}\par
+8 {\cf21 #include "oatpp-swagger/Resources.hpp"}\par
+9 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+10 \par
+15 {\cf17 class }SwaggerComponent \{\par
+16 {\cf17 public}:\par
+17   \par
+21   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::swagger::DocumentInfo>, swaggerDocumentInfo)([] \{\par
+22     \par
+23     oatpp::swagger::DocumentInfo::Builder builder;\par
+24     \par
+25     builder\par
+26     .setTitle({\cf22 "Personal TODO App"})\par
+27     .setDescription({\cf22 "CRUD API Example project with swagger docs"})\par
+28     .setVersion({\cf22 "1.0"})\par
+29     .setContactName({\cf22 "Andjur Dojeev"})\par
+30     .setContactUrl({\cf22 "https://oatpp.io/"})\par
+31     \par
+32     .setLicenseName({\cf22 "Apache License, Version 2.0"})\par
+33     .setLicenseUrl({\cf22 "http://www.apache.org/licenses/LICENSE-2.0"})\par
+34     \par
+35     .addServer({\cf22 "http://localhost:8000"}, {\cf22 "server on localhost"});\par
+36     \par
+37     {\cf19 return} builder.build();\par
+38     \par
+39   \}());\par
+40   \par
+41   \par
+45   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::swagger::Resources>, swaggerResources)([] \{\par
+46     {\cf20 // Make sure to specify correct full path to oatpp-swagger/res folder !!!}\par
+47     {\cf19 return} oatpp::swagger::Resources::loadResources(OATPP_SWAGGER_RES_PATH);\par
+48 {\cf20 //    return oatpp::swagger::Resources::loadResources("swagger");}\par
+49   \}());\par
+50   \par
+51 \};\par
+52 \par
+53 {\cf21 #endif }{\cf20 /* SwaggerComponent_hpp */}{\cf21 }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TestClient.hpp\par \pard\plain 
+{\tc\tcl2 \v test/app/TestClient.hpp}
+{\xe \v test/app/TestClient.hpp}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef DatabaseTestClient_hpp}\par
+2 {\cf21 #define DatabaseTestClient_hpp}\par
+3 \par
+4 {\cf21 #include "oatpp/web/client/ApiClient.hpp"}\par
+5 {\cf21 #include "oatpp/core/macro/codegen.hpp"}\par
+6 \par
+7 {\cf21 #include "dto/UserDto.hpp"}\par
+8 \par
+9 {\cf20 /* Begin Api Client code generation */}\par
+10 {\cf21 #include OATPP_CODEGEN_BEGIN(ApiClient)}\par
+11 \par
+16 {\cf17 class }TestClient : {\cf17 public} oatpp::web::client::ApiClient \{\par
+17 \par
+18   API_CLIENT_INIT(TestClient)\par
+19 \par
+20   {\cf20 /*****************************************************************}\par
+21 {\cf20    * UserController}\par
+22 {\cf20    *****************************************************************/}\par
+23 \par
+24   API_CALL({\cf22 "POST"}, {\cf22 "/users"}, addUser, BODY_DTO(Object<UserDto>, userDto))\par
+25   API_CALL({\cf22 "GET"}, {\cf22 "/users/\{userId\}"}, getUser, PATH(Int32, userId))\par
+26   API_CALL({\cf22 "DELETE"}, {\cf22 "/users/\{userId\}"}, deleteUser, PATH(Int32, userId))\par
+27 \par
+28   {\cf20 /*****************************************************************/}\par
+29 \par
+30   {\cf20 // TODO - add more client API calls here}\par
+31 \par
+32 \};\par
+33 \par
+34 {\cf20 /* End Api Client code generation */}\par
+35 {\cf21 #include OATPP_CODEGEN_END(ApiClient)}\par
+36 \par
+37 {\cf21 #endif }{\cf20 // DatabaseTestClient_hpp}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TestComponent.hpp\par \pard\plain 
+{\tc\tcl2 \v test/app/TestComponent.hpp}
+{\xe \v test/app/TestComponent.hpp}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef TestComponent_hpp}\par
+2 {\cf21 #define TestComponent_hpp}\par
+3 \par
+4 {\cf21 #include "oatpp/web/server/HttpConnectionHandler.hpp"}\par
+5 \par
+6 {\cf21 #include "oatpp/network/virtual_/client/ConnectionProvider.hpp"}\par
+7 {\cf21 #include "oatpp/network/virtual_/server/ConnectionProvider.hpp"}\par
+8 {\cf21 #include "oatpp/network/virtual_/Interface.hpp"}\par
+9 \par
+10 {\cf21 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"}\par
+11 \par
+12 {\cf21 #include "oatpp/core/macro/component.hpp"}\par
+13 \par
+14 {\cf21 #include "TestDatabaseComponent.hpp"}\par
+15 \par
+19 {\cf17 class }TestComponent \{\par
+20 {\cf17 public}:\par
+21 \par
+22   TestDatabaseComponent databaseComponent;\par
+23 \par
+27   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::virtual_::Interface>, virtualInterface)([] \{\par
+28     {\cf19 return} oatpp::network::virtual_::Interface::obtainShared({\cf22 "virtualhost"});\par
+29   \}());\par
+30 \par
+34   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ServerConnectionProvider>, serverConnectionProvider)([] \{\par
+35     OATPP_COMPONENT(std::shared_ptr<oatpp::network::virtual_::Interface>, interface);\par
+36     {\cf19 return} oatpp::network::virtual_::server::ConnectionProvider::createShared(interface);\par
+37   \}());\par
+38 \par
+42   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ClientConnectionProvider>, clientConnectionProvider)([] \{\par
+43     OATPP_COMPONENT(std::shared_ptr<oatpp::network::virtual_::Interface>, interface);\par
+44     {\cf19 return} oatpp::network::virtual_::client::ConnectionProvider::createShared(interface);\par
+45   \}());\par
+46 \par
+50   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, httpRouter)([] \{\par
+51       {\cf19 return} oatpp::web::server::HttpRouter::createShared();\par
+52       \}());\par
+53 \par
+57   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::network::ConnectionHandler>, serverConnectionHandler)([] \{\par
+58     OATPP_COMPONENT(std::shared_ptr<oatpp::web::server::HttpRouter>, router); {\cf20 // get Router component}\par
+59     {\cf19 return} oatpp::web::server::HttpConnectionHandler::createShared(router);\par
+60   \}());\par
+61 \par
+65   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::data::mapping::ObjectMapper>, apiObjectMapper)([] \{\par
+66     {\cf19 return} oatpp::parser::json::mapping::ObjectMapper::createShared();\par
+67   \}());\par
+68 \par
+69 \};\par
+70 \par
+71 \par
+72 {\cf21 #endif }{\cf20 // TestComponent_hpp}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+TestDatabaseComponent.hpp\par \pard\plain 
+{\tc\tcl2 \v test/app/TestDatabaseComponent.hpp}
+{\xe \v test/app/TestDatabaseComponent.hpp}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 \par
+2 {\cf21 #ifndef TEST_DATABASECOMPONENT_HPP}\par
+3 {\cf21 #define TEST_DATABASECOMPONENT_HPP}\par
+4 \par
+5 {\cf21 #include "db/UserDb.hpp"}\par
+6 \par
+7 {\cf17 class }TestDatabaseComponent \{\par
+8 {\cf17 public}:\par
+9 \par
+13   OATPP_CREATE_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, dbConnectionProvider)([] \{\par
+14 \par
+15     {\cf20 /* Create database-specific ConnectionProvider */}\par
+16     {\cf17 auto} connectionProvider = std::make_shared<oatpp::sqlite::ConnectionProvider>(TESTDATABASE_FILE);\par
+17 \par
+18     {\cf20 /* Create database-specific ConnectionPool */}\par
+19     {\cf19 return} oatpp::sqlite::ConnectionPool::createShared(connectionProvider,\par
+20                                                        10 {\cf20 /* max-connections */},\par
+21                                                        std::chrono::seconds(5) {\cf20 /* connection TTL */});\par
+22 \par
+23   \}());\par
+24 \par
+28   OATPP_CREATE_COMPONENT(std::shared_ptr<UserDb>, userDb)([] \{\par
+29 \par
+30     {\cf20 /* Get database ConnectionProvider component */}\par
+31     OATPP_COMPONENT(std::shared_ptr<oatpp::provider::Provider<oatpp::sqlite::Connection>>, connectionProvider);\par
+32 \par
+33     {\cf20 /* Create database-specific Executor */}\par
+34     {\cf17 auto} executor = std::make_shared<oatpp::sqlite::Executor>(connectionProvider);\par
+35 \par
+36     {\cf20 /* Create MyClient database client */}\par
+37     {\cf19 return} std::make_shared<UserDb>(executor);\par
+38 \par
+39   \}());\par
+40 \par
+41 \par
+42 \};\par
+43 \par
+44 {\cf21 #endif }{\cf20 //TEST_DATABASECOMPONENT_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+UserControllerTest.hpp\par \pard\plain 
+{\tc\tcl2 \v test/UserControllerTest.hpp}
+{\xe \v test/UserControllerTest.hpp}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef UserControllerTest_hpp}\par
+2 {\cf21 #define UserControllerTest_hpp}\par
+3 \par
+4 {\cf21 #include "oatpp-test/UnitTest.hpp"}\par
+5 \par
+6 {\cf17 class }UserControllerTest : {\cf17 public} oatpp::test::UnitTest \{\par
+7 {\cf17 public}:\par
+8     UserControllerTest() : oatpp::test::UnitTest({\cf22 "TEST[UserControllerTest]"})\par
+9     \{\}\par
+10 \par
+11     {\cf18 void} onRun() {\cf17 override};\par
+12 \};\par
+13 \par
+14 {\cf21 #endif }{\cf20 // UserControllerTest_hpp}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC\par 
+\pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
